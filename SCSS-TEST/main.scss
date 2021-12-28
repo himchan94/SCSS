@@ -1,0 +1,11 @@
+@import "./sub", "./sub2";
+
+$color: royalblue;
+.container {
+  // 자손 선택
+  h1 {
+    color: royalblue;
+    // background-color: orange;
+    font-size: 60px;
+  }
+}
